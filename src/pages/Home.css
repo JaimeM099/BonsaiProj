@@ -1,0 +1,13 @@
+.home {
+    padding: 2rem;
+    background-color: #f0f8ff
+}
+
+.home h1 {
+    color: #333;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #555;
+}
