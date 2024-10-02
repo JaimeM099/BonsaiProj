@@ -1,24 +1,26 @@
 .navbar{
-    background-color: #333;
+    position: absolute;
+    top: 0;
+    /* width: 100%; need to figure this out */
     padding: 1rem;
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    /* margin: 0; will use later
-    padding: 0; will use later */
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 10px;
 }
 
 .nav-links a:hover {
-    color: #00bcd4;
+    color: #1cda71;
 }
