@@ -1,10 +1,10 @@
 .hero-section {
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
     background-image: url('../../public/Indoor1.png');
+    padding: 20px;
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,4 +47,47 @@
 
 .gym-btn:hover {
     background-color: #17a456;
+}
+
+.info-section {
+    background-color: green;
+    height: 40vh;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333; /*Text color*/
+    padding: 20px;
+}
+
+.info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-section p {
+    font-size: 1.25rem;
+    text-align: center;
+    max-width: 800px;
+}
+
+.reachout-section {
+    background-color: beige;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.end-section {
+    background-color: aliceblue;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
