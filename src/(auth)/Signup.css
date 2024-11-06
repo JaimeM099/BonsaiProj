@@ -1,0 +1,10 @@
+.signup {
+    padding: 2rem;
+    background-color: red;
+    padding: 20vh;
+}
+
+.signup h1{
+    color: white;
+    text-align: center;
+}

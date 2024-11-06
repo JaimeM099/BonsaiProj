@@ -1,17 +1,27 @@
 import React, {useState} from "react";
-import { useNavigate } from "react-router-dom";
 import './Login.css';
+import axios from 'axios'
+import { Link } from "react-router-dom";
 
 const Login = () => {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const navigate = useNavigate()
+  async function submit(e){
+    e.preventDefault();
 
-  const onButtonClick = () => {
-    //Will update this in a bit
+    try {
+      await axios.post("http://localhost:3000/login", {
+        email, password
+      })
+    }
+
+    catch (e){
+      console.log(e);
+    }
   }
+
   return (
     <div className="mainContainer">
       <div className="login">
@@ -22,9 +32,9 @@ const Login = () => {
 
       <div className="inputContainer">
         <input
-          value={username}
-          placeholder="Enter Username"
-          onChange={(ev) => setUsername(ev.target.value)}
+          value={email}
+          placeholder="Enter Email"
+          onChange={(ev) => setEmail(ev.target.value)}
         />
         <label className="errorLabel">{error}</label>
       </div>
@@ -43,7 +53,13 @@ const Login = () => {
       <br />
 
       <div className="buttonContainer">
-        <input className="inputButton" type="button" onclick={onButtonClick} value={'Log in'} />
+        <input className="inputButton" type="button" onclick={submit} value={'Log in'} />
+      </div>
+      
+      <br />
+
+      <div>
+        <p>Dont have an account? <Link to="/signup">Sign up here</Link></p>
       </div>
     </div>
   );
