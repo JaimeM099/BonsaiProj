@@ -3,20 +3,29 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="scroll">
-                <div className="hero-section">
-                    <div className="overlay">
-                        <div className="hero-content">
-                        
-                            <h1> <b>Bonsai</b>  </h1>
-                            <h2>Where climbers train to reach new heights</h2>
-                            <p2>Join our community!      </p2>
-                            <button className="gym-btn">Sign up</button>
-                    
-                        </div>
+        <div>
+            <div className="hero-section">
+                <div className="overlay">
+                    <div className="hero-content">
+                        <h1>The climbing gym where any beginner becomes an expert</h1>
+                        <p>Come in and have fun</p>
+                        <button className="gym-btn">Join the Gym!</button>
                     </div>
                 </div>
             </div>
+            <div className="info-section">
+                <h2>Welcome to our gym</h2>
+                <p>Here we can add more information</p>
+            </div>
+            <div className="reachout-section">
+                <h2>This is to reach out</h2>
+                <p>here we can add more information</p>
+            </div>
+            <div className="end-section">
+                <h2>This will be the end of the page</h2>
+                <p>Here we can add more information</p>
+            </div>
+        </div>
     );
 };
 
