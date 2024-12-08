@@ -35,7 +35,7 @@ const Home = () => {
                     </h3>
 
                     <h4>
-                        ⭐⭐⭐⭐⭐ <br></br><br></br>"Bonsai is awesome! Great<br></br> gym, amazing staff, and a <br></br>welcoming climbing community! <br></br>Flowstones climbing, gym, <br></br>
+                        ⭐⭐⭐⭐⭐ <br></br><br></br>"Bonsai is awesome! Great<br></br> gym, amazing staff, and a <br></br>welcoming climbing community! <br></br>Bonsai's climbing gym, <br></br>
                         and yoga classes made <br></br> canceling my old membership<br></br>  an obvious choice!"<br></br>
                         ​- Shane G.<br></br><br></br><br></br><br></br>
 
