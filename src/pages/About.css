@@ -1,14 +1,41 @@
+
 .about {
     padding: 2rem;
-    background-color: #C4A484
-    ;
+    background-color: #C4A484;
+    background-color: rgba(196, 164, 132, 0.7)
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about h1 {
     color: #035803;
+    font-family: monospace;
+    font-size:4rem;
+    text-align: center;
 }
 
-.about p {
-    font-size: 1.2rem;
+.about h2 {
+    color: #035803; 
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.restof-paragraph {
+    font-size: 1.4rem;
     color: black;
+}
+
+.intro-paragraph{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.bottom-paragraph {
+    font-size: 3rem;
+    color: #035803; 
+    text-align: end;
 }
