@@ -20,7 +20,7 @@ background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\lo
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.35); /* Dark overlay for background image */
+    background-color: rgba(0, 0, 0, 0.25); /* Dark overlay for background image */
     z-index: 1;
 }
 

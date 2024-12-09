@@ -56,10 +56,7 @@ const Home = () => {
                         
                         <p></p>
             </div>
-            <div className="reachout-section">
-                <h2>This is to reach out</h2>
-                <p></p>
-            </div>
+        
 
         </div>
     );
