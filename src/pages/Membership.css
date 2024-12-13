@@ -1,13 +1,30 @@
 .membership {
     padding: 2rem;
-    background-color: rgb(174, 235, 195);
+    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\stacie-ong-i0Yk-nsGcJA-unsplash.png);
+    position: relative;
+    height: 275vh;
+    background-size: cover;
+    background-position: center 30%;
+
 }
 
 .membership h1 {
-    color: rgb(46, 90, 5);
+    position: relative;
+    transform: translateY(-40px);
+    padding-top: 24rem;
+    padding-bottom: 4.5rem;
+    font-size: 6.5rem;
+    margin-top: -1px;
+    margin-bottom: 30rem;
+    font-family: serif;
+    color: white;
+    opacity: 80%;
+    text-align: center;
 }
 
 .membership p{
     font-size: 1.2rem;
-    color: #555;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+
