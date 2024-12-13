@@ -30,14 +30,13 @@ const Signup = () => {
     };
 
     return (
-        <div>
+        <div className="mainContainer">
             <div className="signup">
-                <h1>Signup page</h1>
+                <h1>Signup</h1>
             </div>
             
             <br/>
-
-            <div>
+            <div className="inputContainer">
                 <input
                     value={email}
                     placeholder="Enter Email"

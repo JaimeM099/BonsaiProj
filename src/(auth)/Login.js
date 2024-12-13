@@ -25,11 +25,9 @@ const Login = () => {
   return (
     <div className="mainContainer">
       <div className="login">
-        <h1>Login page</h1>
+        <h1>Login</h1>
       </div>
-
       <br />
-
       <div className="inputContainer">
         <input
           value={email}
@@ -58,10 +56,11 @@ const Login = () => {
       
       <br />
 
-      <div>
+      <div className="buttonContainer">
         <p>Dont have an account? <Link to="/signup">Sign up here</Link></p>
       </div>
     </div>
+    
   );
 };
 

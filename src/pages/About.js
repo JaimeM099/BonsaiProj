@@ -28,7 +28,7 @@ const About = () => {
                                 </div>
 
                                 <h2> Ready to Conquer?</h2>
-                                <p class="restof-paragraph"> Join our community at Bonsai Climbing Gym—where every climb is a new adventure, and every member is part of the family. 💪🌳</p>
+                                <p class="restof-paragraph"> Join our community at Bonsai Climbing Gym—where every climb is a new adventure, and every member is part of the family. </p>
                                 <p class="bottom-paragraph">At Bonsai, climbing isn't just a sport, it’s an experience. </p>
                     
 
