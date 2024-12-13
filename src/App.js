@@ -8,6 +8,7 @@ import Membership from "./pages/Membership";
 import Login from "./(auth)/Login";
 import './App.css';
 import Signup from "./(auth)/Signup";
+import Profile from "./(auth)/Profile";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/membership" element={<Membership />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
     </Router>
   );
