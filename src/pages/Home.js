@@ -9,7 +9,7 @@ const Home = () => {
                     <div className="hero-content">
                         <h1>The climbing gym where any beginner becomes an expert</h1>
                         <p>Come in and have fun</p>
-                        <button className="gym-btn">Join the Gym!</button>
+                        <button className="gym-btn">Join the gym!</button>
                     </div>
                 </div>
             </div>

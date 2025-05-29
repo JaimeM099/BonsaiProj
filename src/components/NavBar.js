@@ -1,23 +1,15 @@
 //new navbar for testing
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './NavBar.css';
 
 const NavBar = () => {
     const [isLoggedIn, setisLoggedIn] = useState(false);
-    const navigate = useNavigate();
 
     useEffect(() => {
-            const token = localStorage.getItem('authToken');
-            setisLoggedIn(!token); //This will dynamically update the login state
+            const token = localStorage.getItem("authToken");
+            setisLoggedIn(!!token); //This will dynamically update the login state
     }, []);
-
-    const handleLogout = () => {
-        localStorage.removeItem('authToken'); //Remove token from logout
-        localStorage.removeItem('user');
-        setisLoggedIn(false); //update logged in state
-        navigate("/login")
-    };
 
     return (
         <nav className="navbar">
@@ -27,10 +19,9 @@ const NavBar = () => {
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link to="/membership">Membership</Link></li>
 
-                {!isLoggedIn ? (
+                {isLoggedIn ? (
                     <>
                         <li><Link to="/profile">Profile</Link></li>
-                        <li><button onClick={handleLogout}>Log Out</button></li>
                     </>
                 ) : (
                     <>

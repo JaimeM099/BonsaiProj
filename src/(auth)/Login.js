@@ -12,38 +12,42 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
     try {
       const response = await axios.post("http://localhost:5000/api/auth/login", {
         email,
         password
+        // method: "POST",
+        // headers: { "Content-Type": "application/json" },
+        // body: JSON.stringify({ email, password }),
       });
 
-      if (response.status === 200) {
-        alert('Login was succesful!');
-
-        //will store token in localStorage
-        const { token, user } = response.data;
-        localStorage.setItem('authToken', token);
-        localStorage.setItem('user', JSON.stringify(user));
-
-        //Will redirect user to profile
-        navigate('/profile');
-      }
+      const data = await response.data;
+      localStorage.setItem('authToken', data.token); //Consistent key
+      localStorage.setItem("user", JSON.stringify(data.user));
+      navigate("/profile"); //Will go to profile page
     } catch (error) {
-      if (error.response) {
-        setError(error.response.data.error || 'Login failed. Please try again.');
+      if (error.response && error.response.data && error.response.data.message) {
+        setError(error.response.data.message);
       } else {
-        setError('Login failed. Server not responding');
+        setError("Something went wrong. Please try again.");
       }
-      console.error("Login error:", error);
     }
+
+    //   if (response.ok) {
+    //     localStorage.setItem('token', data.token); //Will store token securely
+    //     navigate("/profile"); //Wil redirect to prfile
+    //   } else {
+    //     setError(data.error);
+    //   }
+    // } catch (error) {
+    //   setError("Something went wrong. Please try again")
+    // }
   };
 
   return (
     <div className="mainContainer">
       <div className="login">
-        <h1>Login page</h1>
+        <h1>Sign-in page</h1>
       </div>
 
       <br />

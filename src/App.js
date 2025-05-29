@@ -13,7 +13,7 @@ import Profile from "./(auth)/Profile";
 function App() {
   return (
     <Router>
-        <NavBar />
+        <NavBar key={Date.now()} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
