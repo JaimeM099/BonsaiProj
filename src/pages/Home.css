@@ -10,6 +10,13 @@
     justify-content: center;
 }
 
+h1 {
+    position: relative;
+    padding-bottom: 4rem;
+    font-size: 300px;
+    opacity: 50%;
+}
+
 .overlay {
     position: absolute;
     top: 0;

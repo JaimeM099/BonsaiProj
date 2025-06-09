@@ -1,13 +1,13 @@
 /* if needed add width:100% to sections only */
 .login {
-    padding: 2rem;
+    padding: 100px;
     background-color: rgb(182, 223, 113);
-    padding: 20vh;
 }
 
 .login h1{
     color: white;
     text-align: center;
+    font-size: 60px;
 }
 
 .inputContainer {
