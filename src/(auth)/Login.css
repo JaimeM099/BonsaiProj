@@ -12,7 +12,8 @@
 }
 
 .mainContainer{
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\pexels-leonardho-1552105.png);
+    background-image: 
+        url('../../public/pexels-leonardho-1552105.png');
     background-position: bottom;
     background-repeat: no-repeat;
     position: relative;

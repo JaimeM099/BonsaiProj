@@ -75,7 +75,8 @@
 
 .background {
     position: relative;
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\pexels-cottonbro-6701937.png);
+    background-image: 
+        url('../../public/pexels-cottonbro-6701937.png');
     background-size: cover;
     height:auto;
     display: flex;
@@ -86,7 +87,8 @@
 }
 
 .background-comp {
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\Indoor3.png);
+    background-image: 
+        url('../../public/Indoor3.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +100,8 @@
 
 }
 .background-gym {
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\pexels-victorfreitas-841130.png);
+    background-image: 
+        url('../../public/pexels-victorfreitas-841130.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +114,8 @@
 }
 
 .background-yoga {
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\pexels-cottonbro-4325484.png);
+    background-image:
+        url('../../public/pexels-cottonbro-4325484.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

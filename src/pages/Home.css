@@ -83,7 +83,8 @@
 
 .info-section {
     position: relative;
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\pexels-cottonbro-6701739.png);
+    background-image: 
+        url('../../public/pexels-cottonbro-6701739.png');
     background-size: cover;
     background-position: left 48%;
     height: 97vh;

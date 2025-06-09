@@ -1,6 +1,7 @@
 .membership {
     padding: 2rem;
-    background-image: url(C:\Users\TreeP\OneDrive\Desktop\CSUSB\BonsaiProj\public\stacie-ong-i0Yk-nsGcJA-unsplash.png);
+    background-image: 
+        url('../../public/stacie-ong-i0Yk-nsGcJA-unsplash.png');
     position: relative;
     height: 275vh;
     background-size: cover;

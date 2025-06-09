@@ -3,10 +3,10 @@ import './Membership.css';
 
 const Membership = () => {
     return (
-        <div className="membership">
+        <div 
+            className="membership">
             <h1>Membership</h1>
             <div className="overlay"></div>
-
             <div className="info-section1">
                 <p>
                 <b>Basic Membership:</b> <br></br>
